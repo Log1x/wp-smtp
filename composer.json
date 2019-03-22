@@ -1,0 +1,17 @@
+{
+    "name": "log1x/wp-smtp",
+    "description": "Simple package for handling WordPress SMTP with .env when using the Roots stack.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brandon Nifong",
+            "email": "brandon@tendency.me"
+        }
+    ],
+    "autoload": {
+      "files": [
+        "src/SMTP.php"
+      ]
+    }
+}
