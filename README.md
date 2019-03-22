@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/log1x/wp-smtp/v/stable)](https://packagist.org/packages/log1x/wp-smtp) [![Total Downloads](https://poser.pugx.org/log1x/wp-smtp/downloads)](https://packagist.org/packages/log1x/wp-smtp)
 
-WP SMTP is a simple Composer package for handling WordPress SMTP with `.env`. No admin menus or other bloat. Just a simple admin notice to verify your connection when needed and the ability to do a simple task WordPress should probably be handling natively.
+WP SMTP is a simple Composer package for handling WordPress SMTP with `.env`. No admin menus or [other bloat](https://blog.sucuri.net/2019/03/0day-vulnerability-in-easy-wp-smtp-affects-thousands-of-sites.html). Just a simple admin notice to verify your connection when needed and the ability to do a simple task WordPress should probably be handling natively.
 
 ## Getting Started
 
