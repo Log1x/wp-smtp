@@ -204,7 +204,8 @@ class SMTP
         } catch (\phpMailerException $error) {
             return $this->notice(
                 $error->errorMessage(),
-                'error', true
+                'error', 
+                true
             );
         } catch (Exception $error) {
             return $this->notice(
