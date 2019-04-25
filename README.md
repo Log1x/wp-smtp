@@ -67,4 +67,4 @@ If you're feeling generous, I also take contributions in the form of [coffee & e
 
 ## License
 
-Sage SMTP is provided under the [MIT License](https://github.com/log1x/wp-smtp/blob/master/LICENSE.md).
+WP SMTP is provided under the [MIT License](https://github.com/log1x/wp-smtp/blob/master/LICENSE.md).
