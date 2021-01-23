@@ -2,13 +2,8 @@
 
 namespace Log1x\SMTP;
 
-if (class_exists('SMTP')) {
-    return;
-}
+use function Env\env;
 
-/**
- * WordPress SMTP
- */
 class SMTP
 {
     /**
