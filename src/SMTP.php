@@ -166,8 +166,11 @@ class SMTP
      */
     protected function verify()
     {
-        require_once(ABSPATH . WPINC . '/class-phpmailer.php');
-        $mail = new \PHPMailer(true);
+        require_once(ABSPATH . WPINC . '/PHPMailer/Exception.php');
+        require_once(ABSPATH . WPINC . '/PHPMailer/PHPMailer.php');
+        require_once(ABSPATH . WPINC . '/PHPMailer/SMTP.php');
+
+        $mail = new \PHPMailer\PHPMailer\PHPMailer(true);
 
         try {
             $mail->isSMTP();
