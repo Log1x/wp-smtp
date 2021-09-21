@@ -199,7 +199,7 @@ class SMTP
             $mail->Send();
             $mail->ClearAddresses();
             $mail->ClearAllRecipients();
-        } catch (\phpMailerException $error) {
+        } catch (\PHPMailer\PHPMailer\Exception $error) {
             return $this->notice(
                 $error->errorMessage(),
                 'error',
